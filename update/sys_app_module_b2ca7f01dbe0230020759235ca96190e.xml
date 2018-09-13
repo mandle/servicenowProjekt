@@ -21,14 +21,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_271560_wahlkurse.pruefungsamt,x_271560_wahlkurse.mitarbeiter</roles>
+        <roles>x_271560_wahlkurse.mitarbeiter</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-13 11:58:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b2ca7f01dbe0230020759235ca96190e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Meine Praktika</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sys_app_module_b2ca7f01dbe0230020759235ca96190e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-13 11:58:27</sys_updated_on>
+        <sys_updated_on>2018-09-13 15:03:38</sys_updated_on>
         <timeline_page/>
         <title>Meine Praktika</title>
         <uncancelable>false</uncancelable>
