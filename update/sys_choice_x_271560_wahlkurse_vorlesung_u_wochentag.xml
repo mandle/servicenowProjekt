@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_wochentag" table="x_271560_wahlkurse_vorlesung" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_wochentag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Montag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_vorlesung</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-13 07:05:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64187e454f20230007b38df07310c768</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-13 07:05:53</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_wochentag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dienstag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_vorlesung</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-13 07:06:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f28fa454f20230007b38df07310c7cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-13 07:06:08</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_wochentag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mittwoch</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_vorlesung</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-13 07:06:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>813836454f20230007b38df07310c7c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-13 07:06:16</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_wochentag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Donnerstag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_vorlesung</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-13 07:07:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>786832854f20230007b38df07310c73f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-13 07:07:10</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_wochentag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Freitag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_vorlesung</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-13 07:06:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>173836454f20230007b38df07310c7c4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-13 07:06:35</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_wochentag</element>
+            <name>x_271560_wahlkurse_vorlesung</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-13 07:05:53</sys_created_on>
+            <sys_id>271872454f20230007b38df07310c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_wochentag</sys_name>
+            <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+            <sys_update_name>sys_choice_x_271560_wahlkurse_vorlesung_u_wochentag</sys_update_name>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-13 07:05:53</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

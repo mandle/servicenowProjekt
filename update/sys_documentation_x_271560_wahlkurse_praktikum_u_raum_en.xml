@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_raum" label="Raum" language="en" table="x_271560_wahlkurse_praktikum">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_raum</element>
+            <help/>
+            <hint/>
+            <label>Raum</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_praktikum</name>
+            <plural>Raums</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-13 07:17:23</sys_created_on>
+            <sys_id>44caf6c54f20230007b38df07310c735</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Raum</sys_name>
+            <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+            <sys_update_name>sys_documentation_x_271560_wahlkurse_praktikum_u_raum_en</sys_update_name>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-13 07:17:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

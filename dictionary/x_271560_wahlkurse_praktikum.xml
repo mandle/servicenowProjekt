@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Praktikum" max_length="40" name="x_271560_wahlkurse_praktikum" type="collection">
+        <element default="10" label="Anzahl Teilnehmer" max_length="40" name="u_anzahl_teilnehmer" read_only="true" type="integer"/>
+        <element label="Raum" max_length="10" name="u_raum" type="string"/>
+        <element label="Startzeit" max_length="40" name="u_startzeit" type="glide_time"/>
+        <element label="Wahlmodul" max_length="32" name="u_wahlmodul" reference="x_271560_wahlkurse_wahlmodul" type="reference"/>
+        <element choice="1" label="Wochentag" max_length="40" name="u_wochentag" type="choice">
+            <choice>
+                <element label="Dienstag" value="2"/>
+                <element label="Donnerstag" value="4"/>
+                <element label="Freitag" value="5"/>
+                <element label="Mittwoch" value="3"/>
+                <element label="Montag" value="1"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_wahlmodul"/>
+        </index>
+    </element>
+</database>

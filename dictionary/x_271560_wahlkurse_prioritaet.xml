@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Prioritaet" max_length="40" name="x_271560_wahlkurse_prioritaet" type="collection">
+        <element choice="1" label="Prioritaet" max_length="40" name="u_prioritaet" type="choice">
+            <choice>
+                <element label="1" value="1"/>
+                <element label="2" value="2"/>
+                <element label="3" value="3"/>
+                <element label="4" value="4"/>
+                <element label="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Student" max_length="32" name="u_student" reference="x_271560_wahlkurse_student" type="reference"/>
+        <element label="Wahlmodul" max_length="32" name="u_wahlmodul" reference="x_271560_wahlkurse_wahlmodul" type="reference"/>
+        <index name="index">
+            <element name="u_student"/>
+        </index>
+        <index name="index2">
+            <element name="u_wahlmodul"/>
+        </index>
+    </element>
+</database>

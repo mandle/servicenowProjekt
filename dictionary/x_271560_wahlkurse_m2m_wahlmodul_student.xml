@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Wahlkurse M2m Wahlmodul Student" max_length="40" name="x_271560_wahlkurse_m2m_wahlmodul_student" type="collection">
+        <element label="Student" max_length="32" name="student" reference="x_271560_wahlkurse_student" type="reference"/>
+        <element label="Wahlmodul" max_length="32" name="wahlmodul" reference="x_271560_wahlkurse_wahlmodul" type="reference"/>
+        <index name="index">
+            <element name="wahlmodul"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

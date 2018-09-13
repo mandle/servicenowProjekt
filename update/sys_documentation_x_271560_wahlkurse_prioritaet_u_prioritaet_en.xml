@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_prioritaet" label="Prioritaet" language="en" table="x_271560_wahlkurse_prioritaet">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_prioritaet</element>
+            <help/>
+            <hint/>
+            <label>Prioritaet</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_prioritaet</name>
+            <plural>Prioritaets</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-13 07:10:52</sys_created_on>
+            <sys_id>2c49f2854f20230007b38df07310c749</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Prioritaet</sys_name>
+            <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+            <sys_update_name>sys_documentation_x_271560_wahlkurse_prioritaet_u_prioritaet_en</sys_update_name>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-13 07:10:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

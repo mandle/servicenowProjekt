@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Wahlmodul" max_length="40" name="x_271560_wahlkurse_wahlmodul" type="collection">
+        <element label="Anzahl Teilnehmer" max_length="40" name="u_anzahl_teilnehmer" type="integer"/>
+        <element label="Semester" max_length="40" name="u_semester" type="integer"/>
+        <element label="Titel" max_length="100" name="u_titel" type="string"/>
+        <element label="Verantwortlicher" max_length="32" name="u_verantwortlicher" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_verantwortlicher"/>
+        </index>
+    </element>
+</database>

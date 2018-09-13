@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Wahlgang" max_length="40" name="x_271560_wahlkurse_wahlgang" type="collection">
+        <element label="Ende" max_length="40" name="u_ende" type="glide_date_time"/>
+        <element label="Semester" max_length="40" name="u_semester" type="integer"/>
+    </element>
+</database>

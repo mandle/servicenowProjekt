@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_271560_wahlkurse.vorlesung_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>vorlesung_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>melinakriska</sys_created_by>
+        <sys_created_on>2018-09-13 07:04:20</sys_created_on>
+        <sys_id>b0c7f2454f20230007b38df07310c79e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_271560_wahlkurse.vorlesung_user</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sys_user_role_b0c7f2454f20230007b38df07310c79e</sys_update_name>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-13 07:04:20</sys_updated_on>
+    </sys_user_role>
+</record_update>

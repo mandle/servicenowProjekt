@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Wahlkurse M2m Praktikum Student" max_length="40" name="x_271560_wahlkurse_m2m_praktikum_student" type="collection">
+        <element label="Praktikum" max_length="32" name="praktikum" reference="x_271560_wahlkurse_praktikum" type="reference"/>
+        <element label="Student" max_length="32" name="student" reference="x_271560_wahlkurse_student" type="reference"/>
+        <index name="index">
+            <element name="student"/>
+        </index>
+        <index name="index2">
+            <element name="praktikum"/>
+        </index>
+    </element>
+</database>
