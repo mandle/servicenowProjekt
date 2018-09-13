@@ -22,6 +22,9 @@
             </choice>
         </element>
         <index name="index">
+            <element name="u_semester"/>
+        </index>
+        <index name="index2">
             <element name="u_verantwortlicher"/>
         </index>
     </element>
