@@ -2,9 +2,25 @@
 <database>
     <element label="Wahlmodul" max_length="40" name="x_271560_wahlkurse_wahlmodul" type="collection">
         <element label="Anzahl Teilnehmer" max_length="40" name="u_anzahl_teilnehmer" type="integer"/>
-        <element label="Semester" max_length="40" name="u_semester" type="integer"/>
-        <element label="Titel" max_length="100" name="u_titel" type="string"/>
-        <element label="Verantwortlicher" max_length="32" name="u_verantwortlicher" reference="sys_user" type="reference"/>
+        <element label="Beschreibung" max_length="1000" name="u_beschreibung" type="string_full_utf8"/>
+        <element default="6" label="Credits" max_length="40" name="u_credits" type="integer"/>
+        <element label="Semester" max_length="40" name="u_semester" reference="x_271560_wahlkurse_semester" type="reference"/>
+        <element display="true" label="Titel" max_length="100" name="u_titel" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Verantwortlicher" max_length="32" name="u_verantwortlicher" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" label="Zeitslot" max_length="40" name="u_zeitslot" type="choice">
+            <choice>
+                <element label="Dienstag Nachmittag" value="3"/>
+                <element label="Dienstag Vormittag" value="2"/>
+                <element label="Donnerstag Nachmittag" value="7"/>
+                <element label="Donnerstag Vormittag" value="6"/>
+                <element label="Freitag Nachmittag" value="9"/>
+                <element label="Freitag Vormittag" value="8"/>
+                <element label="Mittwoch  Vormittag" value="4"/>
+                <element label="Mittwoch Nachmittag" value="5"/>
+                <element label="Montag Nachmittag" value="1"/>
+                <element label="Montag Vormittag" value="0"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="u_verantwortlicher"/>
         </index>

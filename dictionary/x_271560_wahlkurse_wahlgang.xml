@@ -2,6 +2,6 @@
 <database>
     <element label="Wahlgang" max_length="40" name="x_271560_wahlkurse_wahlgang" type="collection">
         <element label="Ende" max_length="40" name="u_ende" type="glide_date_time"/>
-        <element label="Semester" max_length="40" name="u_semester" type="integer"/>
+        <element label="Semester" max_length="40" name="u_semester" reference="x_271560_wahlkurse_semester" type="reference"/>
     </element>
 </database>

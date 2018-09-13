@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_zeitslot" table="x_271560_wahlkurse_wahlmodul" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Montag Vormittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:23:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58556341dba0230020759235ca9619e9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:26:38</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Montag Nachmittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:23:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62652f01dba0230020759235ca9619ad</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:26:51</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dienstag Vormittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:24:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05852749db60230020759235ca96193e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:26:58</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dienstag Nachmittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:25:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62b5e341dba0230020759235ca961946</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:27:04</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mittwoch  Vormittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:25:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddc52741dba0230020759235ca96191a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:27:11</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mittwoch Nachmittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:24:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57852749db60230020759235ca961942</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:27:19</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Donnerstag Vormittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:25:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bed5af01dba0230020759235ca961962</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:27:24</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Donnerstag Nachmittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:25:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ce52341dba0230020759235ca961948</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:27:29</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Freitag Vormittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:26:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54f5e741dba0230020759235ca96197f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:27:36</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zeitslot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Freitag Nachmittag</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:26:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32e5a741dba0230020759235ca961987</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:26:46</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_zeitslot</element>
+            <name>x_271560_wahlkurse_wahlmodul</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-13 10:23:44</sys_created_on>
+            <sys_id>a5656349db60230020759235ca9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_zeitslot</sys_name>
+            <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+            <sys_update_name>sys_choice_x_271560_wahlkurse_wahlmodul_u_zeitslot</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-13 10:23:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
