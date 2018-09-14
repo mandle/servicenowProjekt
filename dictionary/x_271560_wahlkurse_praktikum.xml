@@ -3,7 +3,7 @@
     <element label="Praktikum" max_length="40" name="x_271560_wahlkurse_praktikum" type="collection">
         <element default="10" label="Anzahl Teilnehmer" max_length="40" name="u_anzahl_teilnehmer" read_only="true" type="integer"/>
         <element label="Raum" max_length="10" name="u_raum" type="string"/>
-        <element label="Startzeit" mandatory="true" max_length="40" name="u_startzeit" type="glide_time"/>
+        <element display="true" label="Startzeit" mandatory="true" max_length="40" name="u_startzeit" type="glide_time"/>
         <element label="Wahlmodul" mandatory="true" max_length="32" name="u_wahlmodul" reference="x_271560_wahlkurse_wahlmodul" reference_qual="u_verantwortlicherDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ" reference_qual_condition="u_verantwortlicherDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ" type="reference"/>
         <index name="index">
             <element name="u_wahlmodul"/>
