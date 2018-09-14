@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>25da64ad4f20230007b38df07310c732</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_271560_wahlkurse_wahlmodul">
+    <x_271560_wahlkurse_wahlmodul action="INSERT_OR_UPDATE">
+        <sys_created_by>testprof1</sys_created_by>
+        <sys_created_on>2018-09-14 10:07:16</sys_created_on>
+        <sys_id>25da64ad4f20230007b38df07310c732</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:46:24</sys_updated_on>
+        <u_anzahl_teilnehmer>10</u_anzahl_teilnehmer>
+        <u_beschreibung>Informationssicherheitsmanagement&#13;
+- Rahmenbedingungen: Gesetze, Regulierung, Verträge&#13;
+- Information Governance&#13;
+- Überblick über Standards&#13;
+Standards und Best Practices &#13;
+- ISO 27001&#13;
+- BSI IT-Grundschutz&#13;
+- Ansätze für kleine und mittelständische Unternehmen&#13;
+- ITIL und IT-Sicherheit&#13;
+Prozessbeispiele&#13;
+- Risikomanagement&#13;
+- Incident Response&#13;
+- Unternehmensinterne Ermittlungen</u_beschreibung>
+        <u_credits>6</u_credits>
+        <u_semester display_value="WS 18/19">892a682d4f20230007b38df07310c716</u_semester>
+        <u_titel>Informationssicherheitsmanagement</u_titel>
+        <u_verantwortlicher display_value="Georg Hoever">6c63a0654f20230007b38df07310c75f</u_verantwortlicher>
+        <u_zeitslot>1</u_zeitslot>
+    </x_271560_wahlkurse_wahlmodul>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>melinakriska</sys_created_by>
+        <sys_created_on>2018-09-14 10:50:28</sys_created_on>
+        <sys_id>0315b4254f60230007b38df07310c72e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Informationssicherheitsmanagement</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sys_metadata_link_0315b4254f60230007b38df07310c72e</sys_update_name>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:50:28</sys_updated_on>
+        <tablename>x_271560_wahlkurse_wahlmodul</tablename>
+    </sys_metadata_link>
+</record_update>

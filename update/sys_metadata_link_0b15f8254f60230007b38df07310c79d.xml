@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d8cde0ed4f20230007b38df07310c7b6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_271560_wahlkurse_wahlmodul">
+    <x_271560_wahlkurse_wahlmodul action="INSERT_OR_UPDATE">
+        <sys_created_by>testprof2</sys_created_by>
+        <sys_created_on>2018-09-14 10:18:57</sys_created_on>
+        <sys_id>d8cde0ed4f20230007b38df07310c7b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:46:10</sys_updated_on>
+        <u_anzahl_teilnehmer>10</u_anzahl_teilnehmer>
+        <u_beschreibung>Themen sind unter anderem: Grundlagen, Wahrnehmungsaspekte von VR, VR/AR-Hardware (Ein- und Ausgabegeräte), Computergrafik von virtuellen Welten, Tracking, Bildverarbeitung für AR, Kalibrierung und Registrierung, Visuelle Kohärenz, Visualisierung, Interaktion und Navigation, Immersion, Modellierung und Annotation, Software-Architekturen, Echtzeit-Aspekte.&#13;
+Im Praktikum werden Virtuelle Welten mit Unity3D erstellt, die mittels der HTC Vive immersiv erlebt werden können. Als AR-Gerät steht die Hololens zur Verfügung.</u_beschreibung>
+        <u_credits>6</u_credits>
+        <u_semester display_value="WS 18/19">892a682d4f20230007b38df07310c716</u_semester>
+        <u_titel>Virtual Reality / Augmented Reality</u_titel>
+        <u_verantwortlicher display_value="Martin Wolf">6c3460694f20230007b38df07310c79e</u_verantwortlicher>
+        <u_zeitslot>6</u_zeitslot>
+    </x_271560_wahlkurse_wahlmodul>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>melinakriska</sys_created_by>
+        <sys_created_on>2018-09-14 10:50:28</sys_created_on>
+        <sys_id>0b15f8254f60230007b38df07310c79d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Virtual Reality / Augmented Reality</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sys_metadata_link_0b15f8254f60230007b38df07310c79d</sys_update_name>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:50:28</sys_updated_on>
+        <tablename>x_271560_wahlkurse_wahlmodul</tablename>
+    </sys_metadata_link>
+</record_update>

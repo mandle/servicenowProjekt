@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>80cbe0ad4f20230007b38df07310c743</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_271560_wahlkurse_wahlmodul">
+    <x_271560_wahlkurse_wahlmodul action="INSERT_OR_UPDATE">
+        <sys_created_by>testprof1</sys_created_by>
+        <sys_created_on>2018-09-14 10:10:32</sys_created_on>
+        <sys_id>80cbe0ad4f20230007b38df07310c743</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:46:32</sys_updated_on>
+        <u_anzahl_teilnehmer>10</u_anzahl_teilnehmer>
+        <u_beschreibung>Historische Verfahren&#13;
+Symmetrische Verfahren, z.B. DES, AES.&#13;
+Asymmetrische Verfahren, z.B. RSA, ElGamal&#13;
+Mathematische Hintergründe, z.B. Gruppen, Ringe, endliche Körper&#13;
+Hashfunktionen (z.B. MD5, SHA-1) und digitale Signatur</u_beschreibung>
+        <u_credits>6</u_credits>
+        <u_semester display_value="WS 18/19">892a682d4f20230007b38df07310c716</u_semester>
+        <u_titel>Kryptologie</u_titel>
+        <u_verantwortlicher display_value="Georg Hoever">6c63a0654f20230007b38df07310c75f</u_verantwortlicher>
+        <u_zeitslot>5</u_zeitslot>
+    </x_271560_wahlkurse_wahlmodul>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>melinakriska</sys_created_by>
+        <sys_created_on>2018-09-14 10:50:28</sys_created_on>
+        <sys_id>0715f8254f60230007b38df07310c797</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kryptologie</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sys_metadata_link_0715f8254f60230007b38df07310c797</sys_update_name>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:50:28</sys_updated_on>
+        <tablename>x_271560_wahlkurse_wahlmodul</tablename>
+    </sys_metadata_link>
+</record_update>

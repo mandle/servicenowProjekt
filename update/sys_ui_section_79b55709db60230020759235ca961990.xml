@@ -4,14 +4,14 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_semester</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-13 09:15:13</sys_created_on>
-            <sys_id>b5b55709db60230020759235ca961997</sys_id>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-14 10:53:19</sys_created_on>
+            <sys_id>f8c5fc254f60230007b38df07310c778</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_wahlkurse_semester" sys_domain="global" view="Default view">79b55709db60230020759235ca961990</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-13 09:15:13</sys_updated_on>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-14 10:53:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_271560_wahlkurse_student</from_table>
+        <m2m_from_field>student</m2m_from_field>
+        <m2m_from_label>Wahlmoduls</m2m_from_label>
+        <m2m_table>x_271560_wahlkurse_m2m_wahlmoduls_students</m2m_table>
+        <m2m_to_field>wahlmodul</m2m_to_field>
+        <m2m_to_label>Students</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>melinakriska</sys_created_by>
+        <sys_created_on>2018-09-13 07:20:27</sys_created_on>
+        <sys_id>a82bb6094f20230007b38df07310c73d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_271560_wahlkurse_m2m_wahlmoduls_students</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sys_m2m_a82bb6094f20230007b38df07310c73d</sys_update_name>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-13 07:20:27</sys_updated_on>
+        <to_table>x_271560_wahlkurse_wahlmodul</to_table>
+    </sys_m2m>
+</record_update>

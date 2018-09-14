@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>096de4ed4f20230007b38df07310c748</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_271560_wahlkurse_wahlmodul">
+    <x_271560_wahlkurse_wahlmodul action="INSERT_OR_UPDATE">
+        <sys_created_by>testprof2</sys_created_by>
+        <sys_created_on>2018-09-14 10:17:21</sys_created_on>
+        <sys_id>096de4ed4f20230007b38df07310c748</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:21:03</sys_updated_on>
+        <u_anzahl_teilnehmer>20</u_anzahl_teilnehmer>
+        <u_beschreibung>Bildaufnahme&#13;
+Bildkompression&#13;
+Statistische Merkmale digitaler Bilder&#13;
+Filtertechniken im Orts- und Frequenzbereich&#13;
+Bildverbesserung&#13;
+Morphologische Operationen &#13;
+Segmentierungsverfahren &#13;
+Einführung in die Klassifikation</u_beschreibung>
+        <u_credits>6</u_credits>
+        <u_semester display_value="WS 18/19">892a682d4f20230007b38df07310c716</u_semester>
+        <u_titel>Bildverarbeitung</u_titel>
+        <u_verantwortlicher display_value="Martin Wolf">6c3460694f20230007b38df07310c79e</u_verantwortlicher>
+        <u_zeitslot>3</u_zeitslot>
+    </x_271560_wahlkurse_wahlmodul>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>melinakriska</sys_created_by>
+        <sys_created_on>2018-09-14 10:50:28</sys_created_on>
+        <sys_id>3615b4254f60230007b38df07310c72c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bildverarbeitung</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sys_metadata_link_3615b4254f60230007b38df07310c72c</sys_update_name>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:50:28</sys_updated_on>
+        <tablename>x_271560_wahlkurse_wahlmodul</tablename>
+    </sys_metadata_link>
+</record_update>

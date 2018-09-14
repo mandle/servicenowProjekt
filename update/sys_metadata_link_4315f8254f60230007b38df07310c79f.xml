@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e87be0ad4f20230007b38df07310c740</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_271560_wahlkurse_wahlmodul">
+    <x_271560_wahlkurse_wahlmodul action="INSERT_OR_UPDATE">
+        <sys_created_by>testprof1</sys_created_by>
+        <sys_created_on>2018-09-14 10:09:28</sys_created_on>
+        <sys_id>e87be0ad4f20230007b38df07310c740</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:22:04</sys_updated_on>
+        <u_anzahl_teilnehmer>20</u_anzahl_teilnehmer>
+        <u_beschreibung>Die Vorlesung betrachtet nach einer Übersicht über das Hadoop Ökosystem und dessen Architektur sowie den grundlegenden Funktion von Hadoop einzelnen Komponenten (HDFS, HBase, Hive, Pig, MapReduce, Spark, Storm, …) von Hadoop zur Datenanalyse im Detail. Insbesondere geht es hier um die Programmierung einer Datenanalyselösung unter Nutzung der verschiedenen Werkzeuge. Anhand von Beispielen werden diese Komponenten zur Anwendung gebracht und deren Spezifika miteinander verglichen.&#13;
+Die Vorlesung ordnet die Komponenten einem Vorgehensmodell mittels eines Standardprozess zu. Beispiele aus dem industriellen Umfeld stellen die konkrete Anwendung von Hadoop in der Praxis dar. Bei den Vorlesungen mit Industriebeteiligung herrscht Anwesenheitspflicht.&#13;
+&#13;
+Im Praktikum setzen die Studierenden die in der Vorlesung vorgestellten Werkzeuge ein.</u_beschreibung>
+        <u_credits>6</u_credits>
+        <u_semester display_value="WS 18/19">892a682d4f20230007b38df07310c716</u_semester>
+        <u_titel>Big Data Analytics II</u_titel>
+        <u_verantwortlicher display_value="Georg Hoever">6c63a0654f20230007b38df07310c75f</u_verantwortlicher>
+        <u_zeitslot>5</u_zeitslot>
+    </x_271560_wahlkurse_wahlmodul>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>melinakriska</sys_created_by>
+        <sys_created_on>2018-09-14 10:50:28</sys_created_on>
+        <sys_id>4315f8254f60230007b38df07310c79f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Big Data Analytics II</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sys_metadata_link_4315f8254f60230007b38df07310c79f</sys_update_name>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:50:28</sys_updated_on>
+        <tablename>x_271560_wahlkurse_wahlmodul</tablename>
+    </sys_metadata_link>
+</record_update>
