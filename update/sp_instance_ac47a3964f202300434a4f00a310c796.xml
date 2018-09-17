@@ -11,23 +11,23 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">a5cc4f8a4f202300434a4f00a310c7fc</sp_column>
-        <sp_widget display_value="Test Context">07087c30ff223100ba13ffffffffff08</sp_widget>
+        <sp_column display_value="1">3e376f964f202300434a4f00a310c769</sp_column>
+        <sp_widget display_value="SP Wahlgang Form">8a96e7964f202300434a4f00a310c700</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-16 11:10:07</sys_created_on>
-        <sys_id>66cccb8a4f202300434a4f00a310c7db</sys_id>
+        <sys_created_on>2018-09-17 07:44:15</sys_created_on>
+        <sys_id>ac47a3964f202300434a4f00a310c796</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
-        <sys_update_name>sp_instance_66cccb8a4f202300434a4f00a310c7db</sys_update_name>
+        <sys_update_name>sp_instance_ac47a3964f202300434a4f00a310c796</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-16 11:10:07</sys_updated_on>
+        <sys_updated_on>2018-09-17 07:44:15</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=66cccb8a4f202300434a4f00a310c7db"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac47a3964f202300434a4f00a310c796"/>
 </record_update>
