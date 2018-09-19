@@ -54,7 +54,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>melinakriska</sys_created_by>
         <sys_created_on>2018-09-13 06:59:14</sys_created_on>
-        <sys_id>beb29647dba02300a6f0a0f2ca9619bb</sys_id>
+        <sys_id>e510d7834fa02300434a4f00a310c7a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_271560_wahlkurse_wahlmodul</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sys_dictionary_x_271560_wahlkurse_wahlmodul_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-19 09:30:29</sys_updated_on>
+        <sys_updated_on>2018-09-19 13:58:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
