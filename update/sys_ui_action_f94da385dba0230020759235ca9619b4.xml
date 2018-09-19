@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments/>
-        <condition/>
+        <condition>javascript:new condition_utils().wahlgang_laeuft();</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -23,35 +23,19 @@
         <name>Fach priorisieren</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[// get timestamp
-var currentDate = new GlideDateTime();
-	
-// query for open wahlgang
-var gr = new GlideRecord('x_271560_wahlkurse_wahlgang');
-gr.addQuery('u_ende', '>', currentDate);
-gr.query();
-
-// query for student
-var gr3 = new GlideRecord('x_271560_wahlkurse_student');
-gr3.get('u_user', gs.getUserID());
+        <script><![CDATA[// query for student
+var gr_student = new GlideRecord('x_271560_wahlkurse_student');
+gr_student.get('u_user', gs.getUserID());
 
 // create new prioritaet
-var gr2 = new GlideRecord('x_271560_wahlkurse_prioritaet');
-gr2.initialize();
-gr2.setValue('u_student', gr3.getValue('sys_id'));
-gr2.setValue('u_wahlmodul', current.sys_id);
-
-// add prioritaet to the new wahlgang
-if(gr.next()){
-	gr2.setValue('u_wahlgang', gr.getValue('sys_id'));
-}
+var gr_prioritaet = new GlideRecord('x_271560_wahlkurse_prioritaet');
+gr_prioritaet.initialize();
+gr_prioritaet.setValue('u_student', gr_student.getValue('sys_id'));
+gr_prioritaet.setValue('u_wahlmodul', current.sys_id);
 
 // update all
-gr2.update();
-current.update();
-
-
-]]></script>
+gr_prioritaet.update();
+current.update();]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -62,15 +46,15 @@ current.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f94da385dba0230020759235ca9619b4</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Fach priorisieren</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sys_ui_action_f94da385dba0230020759235ca9619b4</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-17 13:13:11</sys_updated_on>
+        <sys_updated_by>roehlc</sys_updated_by>
+        <sys_updated_on>2018-09-19 08:33:18</sys_updated_on>
         <table>x_271560_wahlkurse_wahlmodul</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
