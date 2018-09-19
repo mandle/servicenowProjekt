@@ -2,7 +2,7 @@
 <database>
     <element label="Wahlgang" max_length="40" name="x_271560_wahlkurse_wahlgang" type="collection">
         <element label="Ende" max_length="40" name="u_ende" type="glide_date_time"/>
-        <element label="Semester" max_length="40" name="u_semester" reference="x_271560_wahlkurse_semester" type="reference"/>
+        <element default="892a682d4f20230007b38df07310c716" label="Semester" max_length="40" name="u_semester" reference="x_271560_wahlkurse_semester" type="reference"/>
         <element choice="3" default="0" label="Status" max_length="40" name="u_status" type="choice">
             <choice>
                 <element label="Created" value="0"/>
