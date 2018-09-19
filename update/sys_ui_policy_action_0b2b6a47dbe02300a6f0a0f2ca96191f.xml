@@ -17,7 +17,7 @@
         <sys_updated_by>roehlc</sys_updated_by>
         <sys_updated_on>2018-09-19 11:17:26</sys_updated_on>
         <table>x_271560_wahlkurse_wahlgang</table>
-        <ui_policy display_value="Read only one minute after created">34aa2647dbe02300a6f0a0f2ca961948</ui_policy>
+        <ui_policy display_value="Read only after creation">34aa2647dbe02300a6f0a0f2ca961948</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

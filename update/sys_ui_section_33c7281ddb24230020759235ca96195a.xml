@@ -2,74 +2,46 @@
 <record_update>
     <sys_ui_section caption="" section_id="33c7281ddb24230020759235ca96195a" sys_domain="global" table="x_271560_wahlkurse_wahlgang" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>u_ende</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-13 15:13:53</sys_created_on>
-            <sys_id>08d7a05ddb24230020759235ca961917</sys_id>
+            <sys_created_on>2018-09-19 15:20:11</sys_created_on>
+            <sys_id>22c22343dbe0230020759235ca9619c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_wahlkurse_wahlgang" sys_domain="global" view="Default view">33c7281ddb24230020759235ca96195a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-13 15:13:53</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_ende</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-13 15:13:53</sys_created_on>
-            <sys_id>00d7a05ddb24230020759235ca961918</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_271560_wahlkurse_wahlgang" sys_domain="global" view="Default view">33c7281ddb24230020759235ca96195a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-13 15:13:53</sys_updated_on>
+            <sys_updated_on>2018-09-19 15:20:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-13 15:13:53</sys_created_on>
-            <sys_id>80d7a05ddb24230020759235ca961918</sys_id>
+            <sys_created_on>2018-09-19 15:20:11</sys_created_on>
+            <sys_id>e2c22343dbe0230020759235ca9619c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_wahlkurse_wahlgang" sys_domain="global" view="Default view">33c7281ddb24230020759235ca96195a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-13 15:13:53</sys_updated_on>
+            <sys_updated_on>2018-09-19 15:20:11</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_semester</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-13 15:13:53</sys_created_on>
-            <sys_id>04d7a05ddb24230020759235ca961918</sys_id>
+            <sys_created_on>2018-09-19 15:20:11</sys_created_on>
+            <sys_id>66c22343dbe0230020759235ca9619c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_wahlkurse_wahlgang" sys_domain="global" view="Default view">33c7281ddb24230020759235ca96195a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-13 15:13:53</sys_updated_on>
+            <sys_updated_on>2018-09-19 15:20:11</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-13 15:13:53</sys_created_on>
-            <sys_id>84d7a05ddb24230020759235ca961918</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_271560_wahlkurse_wahlgang" sys_domain="global" view="Default view">33c7281ddb24230020759235ca96195a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-13 15:13:53</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

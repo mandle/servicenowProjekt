@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-09-17 13:39:45</sys_created_on>
+        <sys_id>bb983caedb60230020759235ca9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedWorkflow</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sys_scope_privilege_bb983caedb60230020759235ca9619f4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-09-17 13:39:45</sys_updated_on>
+        <target_name>ScopedWorkflow</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>
