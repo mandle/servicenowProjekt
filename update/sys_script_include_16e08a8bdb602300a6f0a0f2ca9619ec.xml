@@ -18,7 +18,6 @@ condition_utils.prototype = {
 	wahlgang_laeuft: function() {
 		// get timestamp
 		var currentDate = new GlideDateTime();
-		gs.error('hier! ' + currentDate);
 		var gr_wahlgang = new GlideRecord('x_271560_wahlkurse_wahlgang');
 		gr_wahlgang.addQuery('u_ende', '>', currentDate);
 		gr_wahlgang.query();
@@ -28,18 +27,21 @@ condition_utils.prototype = {
 	
 	/* Function to check if there is already a Prioritaet 
 	 * for a specific Student and Wahlmodul
-	 * @param student: sys_id of Student to check
+	 * @param student: sys_id of User to check
 	 * @param wahlmodul: sys_id of Wahlmodul to check
 	 * @return {boolean} false if there is already a record
 	 */
-	prioritaet_vorhanden: function(student, wahlmodul) {
+	prioritaet_vorhanden: function(user, wahlmodul) {
+		// get Student
+		var student = new GlideRecord('x_271560_wahlkurse_student');
+		student.get('u_user', user);
 		// get Prioritaets record
 		var gr_prioritaet = new GlideRecord('x_271560_wahlkurse_prioritaet');
-		gr_wahlgang.addQuery('u_student', student);
-		gr_wahlgang.addQuery('u_wahlmodul', wahlmodul);
-		gr_wahlgang.query();
+		gr_prioritaet.addQuery('u_student', student.getValue('sys_id'));
+		gr_prioritaet.addQuery('u_wahlmodul', wahlmodul);
+		gr_prioritaet.query();
 		
-		return gr_wahlgang.hasNext();
+		return gr_prioritaet.hasNext();
 	},
 	
     type: 'condition_utils'
@@ -48,13 +50,13 @@ condition_utils.prototype = {
         <sys_created_by>roehlc</sys_created_by>
         <sys_created_on>2018-09-19 08:20:19</sys_created_on>
         <sys_id>16e08a8bdb602300a6f0a0f2ca9619ec</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>condition_utils</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sys_script_include_16e08a8bdb602300a6f0a0f2ca9619ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-19 15:38:15</sys_updated_on>
+        <sys_updated_on>2018-09-19 18:29:49</sys_updated_on>
     </sys_script_include>
 </record_update>

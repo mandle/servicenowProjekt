@@ -12,7 +12,7 @@
         </element>
         <element label="Student" max_length="32" name="u_student" reference="x_271560_wahlkurse_student" type="reference"/>
         <element label="Wahlgang" max_length="32" name="u_wahlgang" reference="x_271560_wahlkurse_wahlgang" type="reference" use_dynamic_default="true"/>
-        <element label="Wahlmodul" mandatory="true" max_length="32" name="u_wahlmodul" reference="x_271560_wahlkurse_wahlmodul" type="reference"/>
+        <element label="Wahlmodul" mandatory="true" max_length="32" name="u_wahlmodul" read_only="true" reference="x_271560_wahlkurse_wahlmodul" type="reference"/>
         <index name="index">
             <element name="u_wahlgang"/>
         </index>

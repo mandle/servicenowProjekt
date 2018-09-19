@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>84f0c897db24230020759235ca96192a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_271560_wahlkurse_wahlgang">
+    <x_271560_wahlkurse_wahlgang action="INSERT_OR_UPDATE">
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 17:32:04</sys_created_on>
+        <sys_id>84f0c897db24230020759235ca96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-19 17:32:04</sys_updated_on>
+        <u_ende>2018-10-31 18:31:54</u_ende>
+        <u_semester display_value="WS 18/19">892a682d4f20230007b38df07310c716</u_semester>
+        <u_status>1</u_status>
+    </x_271560_wahlkurse_wahlgang>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 18:44:58</sys_created_on>
+        <sys_id>6ea1d8d3db64230020759235ca961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2018-09-19 19:32:04</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sys_metadata_link_6ea1d8d3db64230020759235ca961921</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-19 18:44:58</sys_updated_on>
+        <tablename>x_271560_wahlkurse_wahlgang</tablename>
+    </sys_metadata_link>
+</record_update>
