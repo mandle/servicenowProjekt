@@ -2,6 +2,21 @@
 <database>
     <element label="Wahlkurse M2m Wahlmodul Student" max_length="40" name="x_271560_wahlkurse_m2m_wahlmodul_student" type="collection">
         <element label="Student" max_length="32" name="student" reference="x_271560_wahlkurse_student" type="reference"/>
+        <element choice="1" label="Note" max_length="40" name="u_note" type="choice">
+            <choice>
+                <element label="1.0" value="1"/>
+                <element label="1.3" value="1,3"/>
+                <element label="1.7" value="1,7"/>
+                <element label="2.0" value="2"/>
+                <element label="2.3" value="2,3"/>
+                <element label="2.7" value="2,7"/>
+                <element label="3.0" value="3"/>
+                <element label="3.3" value="3,3"/>
+                <element label="3.7" value="3,7"/>
+                <element label="4.0" value="4"/>
+                <element label="5.0" value="5"/>
+            </choice>
+        </element>
         <element label="Wahlmodul" max_length="32" name="wahlmodul" reference="x_271560_wahlkurse_wahlmodul" type="reference"/>
         <index name="index">
             <element name="wahlmodul"/>

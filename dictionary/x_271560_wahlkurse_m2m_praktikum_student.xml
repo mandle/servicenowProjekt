@@ -3,6 +3,12 @@
     <element label="Wahlkurse M2m Praktikum Student" max_length="40" name="x_271560_wahlkurse_m2m_praktikum_student" type="collection">
         <element label="Praktikum" max_length="32" name="praktikum" reference="x_271560_wahlkurse_praktikum" type="reference"/>
         <element label="Student" max_length="32" name="student" reference="x_271560_wahlkurse_student" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element label="Nicht bestanden" value="2"/>
+                <element label="Teilnahme" value="0"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="student"/>
         </index>

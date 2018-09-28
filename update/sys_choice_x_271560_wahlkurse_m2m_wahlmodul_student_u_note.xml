@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_note" table="x_271560_wahlkurse_m2m_wahlmodul_student" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1.0</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:16:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8138b142dbf0230020759235ca9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:16:28</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1.3</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:16:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46487142dbf0230020759235ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:16:36</sys_updated_on>
+            <value>1,3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1.7</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:16:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb48f54edbb0230020759235ca961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:16:43</sys_updated_on>
+            <value>1,7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2.0</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15587142dbf0230020759235ca961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:16:50</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2.3</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:16:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe587d02dbf0230020759235ca9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:16:56</sys_updated_on>
+            <value>2,3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2.7</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:17:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8868fd02dbf0230020759235ca961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:17:01</sys_updated_on>
+            <value>2,7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3.0</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1687142dbf0230020759235ca9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:17:08</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3.3</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:17:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77683d02dbf0230020759235ca9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:17:16</sys_updated_on>
+            <value>3,3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3.7</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:17:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8978b142dbf0230020759235ca96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:17:21</sys_updated_on>
+            <value>3,7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4.0</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:17:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be78fd02dbf0230020759235ca96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:17:28</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_note</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5.0</label>
+            <language>en</language>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:17:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7488bd02dbf0230020759235ca96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:17:36</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_note</element>
+            <name>x_271560_wahlkurse_m2m_wahlmodul_student</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:16:28</sys_created_on>
+            <sys_id>0c48fd02dbf0230020759235ca9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_note</sys_name>
+            <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+            <sys_update_name>sys_choice_x_271560_wahlkurse_m2m_wahlmodul_student_u_note</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:16:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

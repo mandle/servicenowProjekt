@@ -2,7 +2,7 @@
 <database>
     <element label="Student" max_length="40" name="x_271560_wahlkurse_student" type="collection">
         <element label="Matrikelnummer" max_length="10" name="u_matrikelnummer" type="string"/>
-        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <element display="true" label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="u_user"/>
         </index>
