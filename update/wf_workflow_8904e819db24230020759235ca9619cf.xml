@@ -32,12 +32,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-28 15:11:41</sys_created_on>
         <sys_id>0627f54edbb0230020759235ca961946</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-28 15:12:53</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>testprüfungsamt1</sys_updated_by>
+        <sys_updated_on>2018-09-29 11:42:53</sys_updated_on>
         <table>x_271560_wahlkurse_wahlgang</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Wahlgang">8904e819db24230020759235ca9619cf</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

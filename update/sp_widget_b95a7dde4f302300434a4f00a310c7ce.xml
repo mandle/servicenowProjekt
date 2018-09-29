@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>eight_subjects_chosen</id>
+        <internal>false</internal>
+        <link/>
+        <name>Eight Subjects chosen</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	//get prioritaet entries for current student, if <8 visible = true, else visible = false
+	var gr_prioritaet = new GlideRecord('x_271560_wahlkurse_prioritaet');
+	gr_prioritaet.addQuery('u_student', gs.getUserID());
+	gr_prioritaet.query();
+	if(gr_prioritaet.getRowCount() < 8) { //put condition to assignment
+		data.vis = true;
+	} else {
+		data.vis = false;
+	}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-29 10:04:05</sys_created_on>
+        <sys_id>b95a7dde4f302300434a4f00a310c7ce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Eight Subjects chosen</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sp_widget_b95a7dde4f302300434a4f00a310c7ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-29 11:33:39</sys_updated_on>
+        <template><![CDATA[<div ng-show="c.data.vis">
+	Noch keine 8 Module priorisiert!
+</div>]]></template>
+    </sp_widget>
+</record_update>

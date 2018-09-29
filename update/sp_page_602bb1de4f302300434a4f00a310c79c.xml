@@ -5,24 +5,24 @@
         <css/>
         <draft>false</draft>
         <dynamic_title_structure/>
-        <id>sp_redirect</id>
+        <id>sp_pruefungsamt_restplaetze</id>
         <internal>false</internal>
         <public>false</public>
         <roles/>
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-16 13:12:50</sys_created_on>
-        <sys_id>44e8a7c64f602300434a4f00a310c733</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>sp_redirect</sys_name>
+        <sys_created_on>2018-09-29 10:07:33</sys_created_on>
+        <sys_id>602bb1de4f302300434a4f00a310c79c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp_pruefungsamt_restplaetze</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
-        <sys_update_name>sp_page_44e8a7c64f602300434a4f00a310c733</sys_update_name>
+        <sys_update_name>sp_page_602bb1de4f302300434a4f00a310c79c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-29 09:39:49</sys_updated_on>
-        <title>SP _Redirect</title>
+        <sys_updated_on>2018-09-29 10:07:33</sys_updated_on>
+        <title>SP Pruefungsamt Restplaetze</title>
     </sp_page>
-    <sys_translated_text action="delete_multiple" query="documentkey=44e8a7c64f602300434a4f00a310c733"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=602bb1de4f302300434a4f00a310c79c"/>
 </record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>restplatzliste</id>
+        <internal>false</internal>
+        <link/>
+        <name>Restplatzliste</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	 data.wms = [];
+	var gr_wahlmodule =  new GlideRecord('x_271560_wahlkurse_wahlmodul');
+	gr_wahlmodule.query();
+	while(gr_wahlmodule.next()) {
+		var wm_slots = gr_wahlmodule.u_anzahl_teilnehmer;
+		var gr_m2n = new GlideRecord('x_271560_wahlkurse_m2m_wahlmodul_student');
+		gr_m2n.addQuery('wahlmodul', gr_wahlmodule.sys_id);
+		gr_m2n.query();
+		var wm_teilnehmer = gr_m2n.getRowCount();
+		
+		if(wm_slots > wm_teilnehmer) {
+			//still some free slots, so display record
+			data.wms.push({u_titel: gr_wahlmodule.u_titel.toString(), u_diff: (wm_slots - wm_teilnehmer)});
+		}
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-29 12:05:54</sys_created_on>
+        <sys_id>0e36d2124fb02300434a4f00a310c7ee</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>Restplatzliste</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sp_widget_0e36d2124fb02300434a4f00a310c7ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-29 15:31:53</sys_updated_on>
+        <template><![CDATA[<div>
+	<ul>
+    <li ng-repeat='wm in c.data.wms'>
+      {{wm.u_titel}} - {{wm.u_diff}} freie Plätze
+    </li>
+  </ul>
+</div>]]></template>
+    </sp_widget>
+</record_update>

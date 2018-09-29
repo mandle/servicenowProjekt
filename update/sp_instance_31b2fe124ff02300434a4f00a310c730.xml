@@ -11,23 +11,23 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">75ee309e4fa02300434a4f00a310c7c5</sp_column>
-        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sp_column display_value="1">c32b75124f702300434a4f00a310c703</sp_column>
+        <sp_widget display_value="Restplatzliste">0e36d2124fb02300434a4f00a310c7ee</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-16 19:28:49</sys_created_on>
-        <sys_id>67ee78d24f242300434a4f00a310c73f</sys_id>
+        <sys_created_on>2018-09-29 14:10:24</sys_created_on>
+        <sys_id>31b2fe124ff02300434a4f00a310c730</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
-        <sys_update_name>sp_instance_67ee78d24f242300434a4f00a310c73f</sys_update_name>
+        <sys_update_name>sp_instance_31b2fe124ff02300434a4f00a310c730</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-16 19:28:49</sys_updated_on>
+        <sys_updated_on>2018-09-29 14:10:24</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=67ee78d24f242300434a4f00a310c73f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=31b2fe124ff02300434a4f00a310c730"/>
 </record_update>
