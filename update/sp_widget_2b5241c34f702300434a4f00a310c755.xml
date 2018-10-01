@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>noten_verteilen_-_studenliste</id>
+        <internal>false</internal>
+        <link/>
+        <name>Noten Verteilen - Studenliste</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	var fachid = $sp.getParameter("fachid");
+	
+	data.students = [];
+	var gr_students =  new GlideRecord('x_271560_wahlkurse_m2m_wahlmodul_student');
+	gr_students.addQuery("wahlmodul", fachid);
+	gr_students.query();
+	
+	while(gr_students.next()) {
+		data.students.push({
+			u_name: gr_students.student.u_matrikelnummer.toString(),
+			u_url: "wn?id=form&table=x_271560_wahlkurse_m2m_wahlmodul_student&sys_id=" + gr_students.sys_id + "&view=sp"
+			//u_url: "wn?id=form&table=x_271560_wahlkurse_wahlmodul&sys_id=" + gr_wahlmodule.get + "&view=sp"
+		});
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-01 13:55:00</sys_created_on>
+        <sys_id>2b5241c34f702300434a4f00a310c755</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Noten Verteilen - Studenliste</sys_name>
+        <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
+        <sys_update_name>sp_widget_2b5241c34f702300434a4f00a310c755</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-01 14:06:59</sys_updated_on>
+        <template><![CDATA[<div>
+	<ul>
+    <li ng-repeat='st in c.data.students'>
+      <a href="{{st.u_url}}">{{st.u_name}}</a>
+    </li>
+  </ul>
+</div>]]></template>
+    </sp_widget>
+</record_update>
