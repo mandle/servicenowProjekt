@@ -8,7 +8,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-  	margin-bottom: 10px;
     width: 50%;
 }</css>
         <data_table>sp_instance</data_table>
@@ -17,45 +16,30 @@
         <docs/>
         <field_list/>
         <has_preview>false</has_preview>
-        <id>eight_subjects_chosen</id>
+        <id>logo_display</id>
         <internal>false</internal>
         <link/>
-        <name>Eight Subjects chosen</name>
+        <name>Logo Display</name>
         <option_schema/>
         <public>false</public>
         <roles/>
-        <script><![CDATA[(function() {
-  /* populate the 'data' object */
-  /* e.g., data.table = $sp.getValue('table'); */
-	//get prioritaet entries for current student, if <8 visible = true, else visible = false
-	var gr_prioritaet = new GlideRecord('x_271560_wahlkurse_prioritaet');
-	gr_prioritaet.addQuery('u_student', gs.getUserID());
-	gr_prioritaet.query();
-	if(gr_prioritaet.getRowCount() < 8) { //put condition to assignment
-		data.vis = true;
-	} else {
-		data.vis = false;
-	}
-	
-})();]]></script>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-29 10:04:05</sys_created_on>
-        <sys_id>b95a7dde4f302300434a4f00a310c7ce</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Eight Subjects chosen</sys_name>
+        <sys_created_on>2018-10-02 12:09:29</sys_created_on>
+        <sys_id>7fc33d1f4ff82300434a4f00a310c742</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Logo Display</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
-        <sys_update_name>sp_widget_b95a7dde4f302300434a4f00a310c7ce</sys_update_name>
+        <sys_update_name>sp_widget_7fc33d1f4ff82300434a4f00a310c742</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-02 12:21:28</sys_updated_on>
-        <template><![CDATA[<div ng-show="c.data.vis">
-  <button class="center">
-    Noch keine 8 Module priorisiert!
-  </button>
-	
+        <sys_updated_on>2018-10-02 12:12:21</sys_updated_on>
+        <template><![CDATA[<div>
+<img src="logo_wn.jpg" width="578" height="289" class="center"/>
+  <h1 style="text-align: center;">wahlmodul#now</h1>
 </div>]]></template>
     </sp_widget>
 </record_update>
