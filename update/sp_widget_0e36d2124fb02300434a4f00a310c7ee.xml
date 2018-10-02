@@ -21,41 +21,60 @@
         <script><![CDATA[(function() {
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
-	 data.wms = [];
-	var gr_wahlmodule =  new GlideRecord('x_271560_wahlkurse_wahlmodul');
-	gr_wahlmodule.query();
-	while(gr_wahlmodule.next()) {
-		var wm_slots = gr_wahlmodule.u_anzahl_teilnehmer;
-		var gr_m2n = new GlideRecord('x_271560_wahlkurse_m2m_wahlmodul_student');
-		gr_m2n.addQuery('wahlmodul', gr_wahlmodule.sys_id);
-		gr_m2n.query();
-		var wm_teilnehmer = gr_m2n.getRowCount();
-		
-		if(wm_slots > wm_teilnehmer) {
-			//still some free slots, so display record
-			data.wms.push({u_titel: gr_wahlmodule.u_titel.toString(), u_diff: (wm_slots - wm_teilnehmer)});
+	data.sems = [];
+	
+	var gr_semester = new GlideRecord('x_271560_wahlkurse_semester');
+	gr_semester.query();
+	
+	while(gr_semester.next()) {
+		var wms = [];
+		var gr_wahlmodule =  new GlideRecord('x_271560_wahlkurse_wahlmodul');
+		gr_wahlmodule.addQuery('u_semester', gr_semester.sys_id);
+		gr_wahlmodule.query();
+		while(gr_wahlmodule.next()) {
+			var wm_slots = gr_wahlmodule.u_anzahl_teilnehmer;
+			var gr_m2n = new GlideRecord('x_271560_wahlkurse_m2m_wahlmodul_student');
+			gr_m2n.addQuery('wahlmodul', gr_wahlmodule.sys_id);
+			gr_m2n.query();
+			var wm_teilnehmer = gr_m2n.getRowCount();
+
+			if(wm_slots > wm_teilnehmer) {
+				//still some free slots, so display record
+				wms.push({u_titel: gr_wahlmodule.u_titel.toString(), u_diff: (wm_slots - wm_teilnehmer)});
+			}
 		}
+		data.sems.push({wms: wms, name: gr_semester.u_semester.toString()});		
 	}
+	
+	
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-29 12:05:54</sys_created_on>
         <sys_id>0e36d2124fb02300434a4f00a310c7ee</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>Restplatzliste</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sp_widget_0e36d2124fb02300434a4f00a310c7ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-29 15:31:53</sys_updated_on>
+        <sys_updated_on>2018-10-02 15:17:59</sys_updated_on>
         <template><![CDATA[<div>
-	<ul>
-    <li ng-repeat='wm in c.data.wms'>
-      {{wm.u_titel}} - {{wm.u_diff}} freie Plätze
+  <ul>
+    <li ng-repeat='sem in c.data.sems'>
+      <h4>
+        {{sem.name}}
+      </h4>
+      <ul>
+        <li ng-repeat='wm in sem.wms'>
+          {{wm.u_titel}} - {{wm.u_diff}} freie Plätze
+        </li>
+      </ul>
     </li>
   </ul>
+	
 </div>]]></template>
     </sp_widget>
 </record_update>

@@ -4,7 +4,7 @@
         <class_name/>
         <order>1</order>
         <sp_column/>
-        <sp_container display_value="SP Pruefungsamt Restplaetze - Container 1">a02bb1de4f302300434a4f00a310c79e</sp_container>
+        <sp_container display_value="SP Restplaetze - Container 1">a02bb1de4f302300434a4f00a310c79e</sp_container>
         <sys_class_name>sp_row</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-29 10:07:43</sys_created_on>

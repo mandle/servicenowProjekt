@@ -11,20 +11,20 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">9736e3964f202300434a4f00a310c7a5</sp_column>
+        <sp_column display_value="1">ae2cc8aa4f602300434a4f00a310c71b</sp_column>
         <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-29 10:06:25</sys_created_on>
-        <sys_id>c8ea7dde4f302300434a4f00a310c7fa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2018-10-02 14:25:01</sys_created_on>
+        <sys_id>89d29a1f4f7c2300434a4f00a310c75b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
-        <sys_update_name>sp_instance_c8ea7dde4f302300434a4f00a310c7fa</sys_update_name>
+        <sys_update_name>sp_instance_89d29a1f4f7c2300434a4f00a310c75b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-02 14:27:29</sys_updated_on>
+        <sys_updated_on>2018-10-02 14:27:46</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
@@ -33,10 +33,10 @@
 		"displayValue": "/wn?id=sp_restplaetze"
 	},
 	"button_text": {
-		"value": "Restplätze",
-		"displayValue": "Restplätze"
+		"value": "Restplätze in den Wahlmodulen anzeigen",
+		"displayValue": "Restplätze in den Wahlmodulen anzeigen"
 	}
 }]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=c8ea7dde4f302300434a4f00a310c7fa"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=89d29a1f4f7c2300434a4f00a310c75b"/>
 </record_update>

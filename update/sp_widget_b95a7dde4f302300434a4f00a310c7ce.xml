@@ -29,8 +29,9 @@
   /* e.g., data.table = $sp.getValue('table'); */
 	//get prioritaet entries for current student, if <8 visible = true, else visible = false
 	var gr_prioritaet = new GlideRecord('x_271560_wahlkurse_prioritaet');
-	gr_prioritaet.addQuery('u_student', gs.getUserID());
+	gr_prioritaet.addQuery('u_student.u_user', gs.getUserID());
 	gr_prioritaet.query();
+	data.count = gr_prioritaet.getRowCount();
 	if(gr_prioritaet.getRowCount() < 8) { //put condition to assignment
 		data.vis = true;
 	} else {
@@ -43,17 +44,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-29 10:04:05</sys_created_on>
         <sys_id>b95a7dde4f302300434a4f00a310c7ce</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Eight Subjects chosen</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sp_widget_b95a7dde4f302300434a4f00a310c7ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-02 12:21:28</sys_updated_on>
+        <sys_updated_on>2018-10-02 14:57:03</sys_updated_on>
         <template><![CDATA[<div ng-show="c.data.vis">
   <button class="center">
-    Noch keine 8 Module priorisiert!
+    Noch keine 8 Module priorisiert! (bis jetzt {{c.data.count}})
   </button>
 	
 </div>]]></template>
