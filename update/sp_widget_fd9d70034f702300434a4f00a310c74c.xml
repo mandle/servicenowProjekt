@@ -29,9 +29,9 @@
 	
 	while(gr_wahlmodule.next()) {
 		data.wms.push({
-			u_titel: gr_wahlmodule.u_titel.toString(), 
-			u_url: "wn?id=sp_noten_verteilen_studentlist&fachid=" + gr_wahlmodule.sys_id
-			//u_url: "wn?id=form&table=x_271560_wahlkurse_wahlmodul&sys_id=" + gr_wahlmodule.get + "&view=sp"
+			titel: gr_wahlmodule.u_titel.toString(), 
+			url: "wn?id=sp_noten_verteilen_studentlist&fachid=" + gr_wahlmodule.sys_id
+			//url: "wn?id=form&table=x_271560_wahlkurse_wahlmodul&sys_id=" + gr_wahlmodule.get + "&view=sp"
 		});
 	}
 })();]]></script>
@@ -40,18 +40,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-01 13:34:07</sys_created_on>
         <sys_id>fd9d70034f702300434a4f00a310c74c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Noten verteilen - Fachliste</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sp_widget_fd9d70034f702300434a4f00a310c74c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-01 13:53:29</sys_updated_on>
+        <sys_updated_on>2018-10-02 10:19:45</sys_updated_on>
         <template><![CDATA[<div>
+  <h2>
+    Aktuell von ihnen angebotene Wahlmodule
+  </h2>
 	<ul>
     <li ng-repeat='wm in c.data.wms'>
-      <a href="{{wm.u_url}}">{{wm.u_titel}}</a>
+      <a href="{{wm.url}}">{{wm.titel}}</a>
     </li>
   </ul>
 </div>]]></template>

@@ -23,15 +23,23 @@
   /* e.g., data.table = $sp.getValue('table'); */
 	var fachid = $sp.getParameter("fachid");
 	
+	var gr_wahlmodul = new GlideRecord("x_271560_wahlkurse_wahlmodul");
+	gr_wahlmodul.addQuery("sys_id", fachid);
+	gr_wahlmodul.query();
+	gr_wahlmodul.next();
+	data.wahlmodulname = gr_wahlmodul.u_titel.toString();
+	
 	data.students = [];
 	var gr_students =  new GlideRecord('x_271560_wahlkurse_m2m_wahlmodul_student');
 	gr_students.addQuery("wahlmodul", fachid);
+	gr_students.orderBy("student.u_matrikelnummer");
 	gr_students.query();
 	
 	while(gr_students.next()) {
 		data.students.push({
-			u_name: gr_students.student.u_matrikelnummer.toString(),
-			u_url: "wn?id=form&table=x_271560_wahlkurse_m2m_wahlmodul_student&sys_id=" + gr_students.sys_id + "&view=sp"
+			name: gr_students.student.u_user.name.toString(),
+			matrnr: gr_students.student.u_matrikelnummer.toString(),
+			url: "wn?id=form&table=x_271560_wahlkurse_m2m_wahlmodul_student&sys_id=" + gr_students.sys_id + "&view=sp"
 			//u_url: "wn?id=form&table=x_271560_wahlkurse_wahlmodul&sys_id=" + gr_wahlmodule.get + "&view=sp"
 		});
 	}
@@ -41,18 +49,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-01 13:55:00</sys_created_on>
         <sys_id>2b5241c34f702300434a4f00a310c755</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Noten Verteilen - Studenliste</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sp_widget_2b5241c34f702300434a4f00a310c755</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-01 15:41:27</sys_updated_on>
+        <sys_updated_on>2018-10-02 09:49:00</sys_updated_on>
         <template><![CDATA[<div>
+  <h2>
+    Kursteilnehmer für das Wahlmodul "{{c.data.wahlmodulname}}"
+  </h2>
 	<ul>
     <li ng-repeat='st in c.data.students'>
-      <a href="{{st.u_url}}">{{st.u_name}}</a>
+      <a href="{{st.url}}">{{st.name}} - {{st.matrnr}}</a>
     </li>
   </ul>
 </div>]]></template>
