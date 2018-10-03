@@ -18,20 +18,20 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">0ac149d24f242300434a4f00a310c772</sp_column>
-        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_page display_value="sp_student_subject">4fc981da4f242300434a4f00a310c758</sp_page>
         <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
         <sys_class_name>sp_instance_table</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-16 19:42:19</sys_created_on>
         <sys_id>410249d24f242300434a4f00a310c77a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Alle Module</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sp_instance_table_410249d24f242300434a4f00a310c77a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-29 09:44:32</sys_updated_on>
+        <sys_updated_by>roehlc</sys_updated_by>
+        <sys_updated_on>2018-10-03 19:33:13</sys_updated_on>
         <table>x_271560_wahlkurse_wahlmodul</table>
         <title>Alle Module</title>
         <url/>

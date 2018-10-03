@@ -47,7 +47,7 @@
 			newl.push({
 				name: gr_teilnehmer.student.u_user.name.toString(),
 				matrikelnummer: gr_teilnehmer.student.u_matrikelnummer.toString(),
-				url: "wn?id=form&table=x_271560_wahlkurse_m2m_praktikum_student&sys_id=" + gr_teilnehmer.sys_id + "&view=sp"
+				url: "wn?id=sp_student_subject&table=x_271560_wahlkurse_m2m_praktikum_student&sys_id=" + gr_teilnehmer.sys_id + "&view=sp"
 			});
 		}
 		
@@ -81,14 +81,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-01 14:17:04</sys_created_on>
         <sys_id>036781c74f702300434a4f00a310c7cc</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Praktika verteilen - Studentliste</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sp_widget_036781c74f702300434a4f00a310c7cc</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-02 11:45:44</sys_updated_on>
+        <sys_updated_by>roehlc</sys_updated_by>
+        <sys_updated_on>2018-10-03 19:41:48</sys_updated_on>
         <template><![CDATA[<div>
   <h2>
     Praktikumsteilnehmer für das Wahlmodul "{{c.data.wahlmodulname}}"
