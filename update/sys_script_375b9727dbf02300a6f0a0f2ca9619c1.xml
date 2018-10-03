@@ -29,7 +29,7 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	gs.addInfoMessage('Es ist schon ein Wahlgang vorhanden. Um einen neuen zu erstellen muss der alte gelöscht werden.');
+	gs.addErrorMessage('Es wurde kein Wahlgang angelegt! Um einen neuen zu erstellen muss der alte gelöscht werden.');
 	// stops insert action
 	current.setAbortAction(true);
 
@@ -40,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>375b9727dbf02300a6f0a0f2ca9619c1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Stop two Wahlgänge at the same time</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sys_script_375b9727dbf02300a6f0a0f2ca9619c1</sys_update_name>
         <sys_updated_by>roehlc</sys_updated_by>
-        <sys_updated_on>2018-10-03 14:35:06</sys_updated_on>
+        <sys_updated_on>2018-10-03 19:02:22</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
