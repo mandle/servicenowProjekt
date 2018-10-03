@@ -7,7 +7,7 @@
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
-        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
+        <login_page display_value="custom_login_page">626856e74f302300434a4f00a310c72d</login_page>
         <logo/>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
@@ -21,14 +21,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-16 11:07:42</sys_created_on>
         <sys_id>d7184fc64f202300434a4f00a310c74a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Wahlmodulsystem</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sp_portal_d7184fc64f202300434a4f00a310c74a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-16 13:14:10</sys_updated_on>
+        <sys_updated_on>2018-10-03 09:29:03</sys_updated_on>
         <theme/>
         <title>Wahlmodulsystem</title>
         <url_suffix>wn</url_suffix>
