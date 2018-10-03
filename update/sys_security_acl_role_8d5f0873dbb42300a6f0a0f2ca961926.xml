@@ -3,17 +3,17 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>roehlc</sys_created_by>
-        <sys_created_on>2018-10-03 15:01:25</sys_created_on>
-        <sys_id>7d84a7ebdbf02300a6f0a0f2ca96198f</sys_id>
+        <sys_created_on>2018-10-03 18:09:48</sys_created_on>
+        <sys_id>8d5f0873dbb42300a6f0a0f2ca961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>.x_271560_wahlkurse.student</sys_name>
+        <sys_name>x_271560_wahlkurse_m2m_praktikum_student.*.x_271560_wahlkurse.student</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_security_acl display_value="x_271560_wahlkurse_m2m_praktikum_student">7484afabdbf02300a6f0a0f2ca961992</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_7d84a7ebdbf02300a6f0a0f2ca96198f</sys_update_name>
+        <sys_update_name>sys_security_acl_role_8d5f0873dbb42300a6f0a0f2ca961926</sys_update_name>
         <sys_updated_by>roehlc</sys_updated_by>
-        <sys_updated_on>2018-10-03 15:01:25</sys_updated_on>
+        <sys_updated_on>2018-10-03 18:09:48</sys_updated_on>
         <sys_user_role display_value="x_271560_wahlkurse.student" name="x_271560_wahlkurse.student">c0974f4ddb20230020759235ca9619d7</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
