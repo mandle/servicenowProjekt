@@ -21,7 +21,7 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>1</name>
-        <onclick/>
+        <onclick>onClick()</onclick>
         <order>100</order>
         <script><![CDATA[// query for student
 var gr_student = new GlideRecord('x_271560_wahlkurse_student');
@@ -55,7 +55,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f94da385dba0230020759235ca9619b4</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>1</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
@@ -63,9 +63,9 @@ current.update();]]></script>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sys_ui_action_f94da385dba0230020759235ca9619b4</sys_update_name>
         <sys_updated_by>roehlc</sys_updated_by>
-        <sys_updated_on>2018-10-03 20:10:24</sys_updated_on>
+        <sys_updated_on>2018-10-03 20:56:39</sys_updated_on>
         <table>x_271560_wahlkurse_wahlmodul</table>
-        <ui11_compatible>true</ui11_compatible>
+        <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
 </record_update>
