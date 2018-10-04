@@ -9,12 +9,12 @@
         <sys_created_by>teststudent1</sys_created_by>
         <sys_created_on>2018-09-19 18:37:29</sys_created_on>
         <sys_id>30ff4453db64230020759235ca9619d1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>teststudent1</sys_updated_by>
-        <sys_updated_on>2018-09-19 18:37:52</sys_updated_on>
-        <u_prioritaet>4</u_prioritaet>
-        <u_student display_value="Created 2018-09-17 15:08:20">d141b8aadb60230020759235ca961938</u_student>
-        <u_wahlgang display_value="Created 2018-09-19 19:32:04">84f0c897db24230020759235ca96192a</u_wahlgang>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>roehlc</sys_updated_by>
+        <sys_updated_on>2018-10-04 19:03:10</sys_updated_on>
+        <u_prioritaet>40</u_prioritaet>
+        <u_student display_value="Created 2018-09-17 06:08:20">d141b8aadb60230020759235ca961938</u_student>
+        <u_wahlgang display_value="Created 2018-09-19 10:32:04">84f0c897db24230020759235ca96192a</u_wahlgang>
         <u_wahlmodul display_value="Fehlertolerante Systeme">878c606d4f20230007b38df07310c77d</u_wahlmodul>
     </x_271560_wahlkurse_prioritaet>
 </record_update>
@@ -23,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-19 18:44:16</sys_created_on>
         <sys_id>588118d3db64230020759235ca9619f8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Created 2018-09-19 20:37:29</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Created 2018-09-19 11:37:29</sys_name>
         <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
         <sys_update_name>sys_metadata_link_588118d3db64230020759235ca9619f8</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-19 18:44:16</sys_updated_on>
+        <sys_updated_by>roehlc</sys_updated_by>
+        <sys_updated_on>2018-10-04 19:03:35</sys_updated_on>
         <tablename>x_271560_wahlkurse_prioritaet</tablename>
     </sys_metadata_link>
 </record_update>

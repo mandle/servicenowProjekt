@@ -3,18 +3,18 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_271560_wahlkurse_student" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_id</element>
-            <list_id display_value="x_271560_wahlkurse_student" element="NULL" name="x_271560_wahlkurse_student" parent="NULL" relationship="NULL" sys_domain="global" view="734a11515d121300651727c3e282e80d">28712da1db602300a6f0a0f2ca961990</list_id>
+            <element>u_user</element>
+            <list_id display_value="x_271560_wahlkurse_student" element="NULL" name="x_271560_wahlkurse_student" parent="NULL" relationship="NULL" sys_domain="global" view="734a11515d121300651727c3e282e80d">fbb6118cdb816300a6f0a0f2ca9619d1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>roehlc</sys_created_by>
-            <sys_created_on>2018-09-14 14:04:11</sys_created_on>
-            <sys_id>64712da1db602300a6f0a0f2ca961991</sys_id>
+            <sys_created_on>2018-10-04 17:57:56</sys_created_on>
+            <sys_id>73b6118cdb816300a6f0a0f2ca9619d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>roehlc</sys_updated_by>
-            <sys_updated_on>2018-09-14 14:04:11</sys_updated_on>
+            <sys_updated_on>2018-10-04 17:57:56</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -28,10 +28,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>roehlc</sys_created_by>
-            <sys_created_on>2018-09-14 14:04:11</sys_created_on>
+            <sys_created_on>2018-10-04 17:57:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>28712da1db602300a6f0a0f2ca961990</sys_id>
+            <sys_id>fbb6118cdb816300a6f0a0f2ca9619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_271560_wahlkurse_student</sys_name>
             <sys_package display_value="Wahlkurse#now" source="x_271560_wahlkurse">f5289dd0db202300a6f0a0f2ca961932</sys_package>
@@ -39,7 +39,7 @@
             <sys_scope display_value="Wahlkurse#now">f5289dd0db202300a6f0a0f2ca961932</sys_scope>
             <sys_update_name>sys_ui_list_x_271560_wahlkurse_student_sys_ref_list</sys_update_name>
             <sys_updated_by>roehlc</sys_updated_by>
-            <sys_updated_on>2018-09-14 14:04:11</sys_updated_on>
+            <sys_updated_on>2018-10-04 17:57:56</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">734a11515d121300651727c3e282e80d</view>
             <view_name/>
