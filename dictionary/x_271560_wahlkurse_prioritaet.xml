@@ -3,11 +3,11 @@
     <element label="Prioritaet" max_length="40" name="x_271560_wahlkurse_prioritaet" type="collection">
         <element choice="3" default="3" label="Prioritaet" mandatory="true" max_length="40" name="u_prioritaet" type="choice">
             <choice>
-                <element label="1" value="1"/>
-                <element label="2" value="2"/>
-                <element label="3" value="3"/>
-                <element label="4" value="4"/>
-                <element label="5" value="5"/>
+                <element label="★☆☆☆☆" sequence="1" value="1"/>
+                <element label="★★☆☆☆" sequence="2" value="2"/>
+                <element label="★★★☆☆" sequence="3" value="3"/>
+                <element label="★★★★☆" sequence="4" value="4"/>
+                <element label="★★★★★" sequence="5" value="5"/>
             </choice>
         </element>
         <element label="Student" max_length="32" name="u_student" reference="x_271560_wahlkurse_student" type="reference"/>
